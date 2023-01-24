@@ -1,0 +1,44 @@
+.lista-vtubers {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.vtuber img {
+  height: 400px;
+}
+
+.vtuber img:hover {
+  transform: scale(135%);
+  filter: drop-shadow(0 0 1em #ff0);
+}
+
+.lista-vtubers:hover .vtuber img:not(:hover) {
+  filter: blur(5px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Laptop 1366px */
+@media screen and (max-width: 1366px) {
+  .vtuber img {
+    height: 70vh;
+  }
+}
+
+/* Tablet 768px */
+@media screen and (max-width: 768px) {
+  .vtuber img {
+    height: 50vh;
+  }
+}
+
+/* Mobile 425px */
+@media screen and (max-width: 391px) {
+  .lista-vtubers {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  .vtuber img {
+    height: 22vh;
+  }
+}

@@ -1,0 +1,13 @@
+#root {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
