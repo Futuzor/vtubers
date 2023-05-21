@@ -34,8 +34,8 @@
 /* Mobile 425px */
 @media screen and (max-width: 640px) {
   .lista-vtubers {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3em;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
   }
 
   .vtuber img {
