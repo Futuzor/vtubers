@@ -32,7 +32,7 @@
 }
 
 /* Mobile 425px */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 413px) {
   .lista-vtubers {
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
