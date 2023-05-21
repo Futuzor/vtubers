@@ -36,6 +36,7 @@
   .lista-vtubers {
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
+    row-gap: 4em;
   }
 
   .vtuber img {
