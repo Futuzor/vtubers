@@ -22,7 +22,7 @@ const ListaVTubers = [
   {
     nombre: "Nekoma Shiroa",
     url: "https://www.youtube.com/@NekomaShiroa",
-    imagen: "/nekoma-shiroa.webp",
+    imagen: "/shiroa-nekoma.webp",
   },
   {
     nombre: "Mishiro Shirayuki",
