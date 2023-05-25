@@ -1,10 +1,10 @@
 .lista-vtubers {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .vtuber img {
-  height: 400px;
+  height: 50vh;
 }
 
 .vtuber img:hover {
@@ -18,24 +18,15 @@
 }
 
 /* Laptop 1366px */
-@media screen and (max-width: 1366px) {
+/*@media screen and (max-width: 1366px) {
   .vtuber img {
     height: 70vh;
   }
-}
-
-/* Tablet 768px */
-@media screen and (max-width: 768px) {
-  .vtuber img {
-    height: 50vh;
-  }
-}
+}*/
 
 /* Mobile 425px */
 @media screen and (max-width: 640px) {
   .lista-vtubers {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
     row-gap: 4em;
   }
 
