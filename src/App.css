@@ -3,11 +3,3 @@
   margin: 4em auto;
   text-align: center;
 }
-
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  place-items: center;
-}
